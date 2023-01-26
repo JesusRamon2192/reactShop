@@ -1,0 +1,27 @@
+{
+  "name": "reactshop",
+  "version": "1.0.0",
+  "description": "react eshop",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesusRamon2192/reactShop.git"
+  },
+  "keywords": [
+    "javascript",
+    "react"
+  ],
+  "author": "Jesus Ramon Oyervides <jesus.ramon2192@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JesusRamon2192/reactShop/issues"
+  },
+  "homepage": "https://github.com/JesusRamon2192/reactShop#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
