@@ -4,7 +4,7 @@ import logo from '../../curso-frontend-developer-practico/logos/logo_yard_sale.s
 
 const Login = () => {
   return (
-    <div className="login">
+  <div className="login">
     <div className="form-container">
       <img src={logo} alt="logo" className="logo"/>
       <h1 className="title">Create a new password</h1>
