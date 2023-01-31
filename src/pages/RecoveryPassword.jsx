@@ -1,7 +1,7 @@
 import React from 'react';
-import '../styles/RecoveryPassword.scss';
-import logo from '../../curso-frontend-developer-practico/logos/logo_yard_sale.svg';
-import logosend from '../../curso-frontend-developer-practico/icons/email.svg'
+import '@styles/RecoveryPassword.scss';
+import logo from '@logos/logo_yard_sale.svg';
+import logosend from '@icons/email.svg'
 
 const RecoveryPassword = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import '../styles/ProductInfo.scss';
-import iconCart from '../../curso-frontend-developer-practico/icons/bt_add_to_cart.svg';
+import '@styles/ProductInfo.scss';
+import iconCart from '@icons/bt_add_to_cart.svg';
 
 const ProductInfo = () => {
 	return (
