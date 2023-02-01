@@ -3,10 +3,10 @@ import '@styles/ProductItem.scss';
 import iconCart from '@icons/bt_add_to_cart.svg';
 
 const ProductItem = () => {
-	const [cart, setCart] = useState('');
+	const [cart, setCart] = useState([]);
 
 	const handleClick = () => {
-		setCart('Hola Mundo');
+		setCart([]);
 	}
 	return (
 		<div className="ProductItem">
@@ -19,7 +19,6 @@ const ProductItem = () => {
 				<figure onClick={handleClick}>
 					<img src={iconCart} alt="" />
 				</figure>
-				{cart} {/* Acceder a la variable */}
 			</div>
 		</div>
 	);
