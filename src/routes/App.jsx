@@ -19,7 +19,7 @@ const App = () => {
     const initialState = useInitialState();
     return (
         <AppContext.Provider value = {initialState}>
-        <HashRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename="/reactshop">
             <Layout>
                 <Routes>
                     <Route exact path="/" element={<Home/>} />
